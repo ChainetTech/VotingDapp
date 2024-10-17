@@ -1,0 +1,86 @@
+/* VoterRegistration.css */
+
+.voter-registration-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: #444;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contract-address {
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #ffeded;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+
+.success-message {
+    color: #27ae60;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+}
+
+.qr-code-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.qr-code-container svg {
+    margin: 1rem auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.qr-code-container p {
+    color: #555;
+    font-style: italic;
+}

@@ -1,0 +1,93 @@
+/* Results.css */
+
+.results-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-container h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .contract-address {
+    margin-bottom: 20px;
+  }
+  
+  .contract-address h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .contract-address input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-bottom: 15px;
+  }
+  
+  .winner-info {
+    background-color: #d4edda;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .winner-info h3 {
+    color: #2c3e50;
+    margin-top: 0;
+  }
+  
+  .winner-info p {
+    margin: 5px 0;
+  }
+  
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .results-table th,
+  .results-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  
+  .results-table th {
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .results-table tr:hover {
+    background-color: #ecf0f1;
+  }
+  
+  .winner-row {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .results-table {
+      font-size: 14px;
+    }
+  
+    .results-table th,
+    .results-table td {
+      padding: 8px;
+    }
+  }

@@ -1,0 +1,86 @@
+/* Dashboard.css */
+
+.dashboard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Hide Contract Address */
+.contract-address {
+  display: none; /* Hide the contract address section */
+}
+
+.contract-address h3 {
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.contract-address input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Error Message */
+.error-message {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+/* Candidates Table */
+.candidates-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.candidates-table th,
+.candidates-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.candidates-table th {
+  background-color: #3498db;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.candidates-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.candidates-table tr:hover {
+  background-color: #ecf0f1;
+}
+
+/* Candidate Images */
+.candidates-table img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .candidates-table {
+      font-size: 14px;
+  }
+
+  .candidates-table th,
+  .candidates-table td {
+      padding: 8px;
+  }
+}
